@@ -1,7 +1,5 @@
 #### April 17, 2024 
 
-No Meeting this week!
-
 - **Where/When:** JBHT 535, 1-2P ([U of A](https://www.uark.edu/))
 - **Reading:**
   - [Risks From Learned Optimization in Advanced Machine Learning Systems](https://arxiv.org/pdf/1906.01820.pdf)
