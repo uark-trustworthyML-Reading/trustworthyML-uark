@@ -1,17 +1,10 @@
-#### April 10, 2024 
+#### April 17, 2024 
 
 No Meeting this week!
 
-<!--- **Where/When:** JBHT 535, 1-2P ([U of A](https://www.uark.edu/))-->
-<!--- **Reading:**-->
-<!--  - [The Causal Fairness Field Guide: Perspectives From Social and Formal Sciences](https://www.frontiersin.org/articles/10.3389/fdata.2022.892837/full)-->
-<!--  - [Chapter 5: Causality](https://fairmlbook.org/pdf/fairmlbook.pdf#causality) - The Fair ML Book by S. Barocas-->
-<!--- **Meeting Link (opt):** email me!-->
-<!--- **notes:** -->
-
-#### April 12, 2024 
-Symposium on Surveillance: "From Surveillance to Visibility"
-
-<p>More Info <a href="/assets/misc/From_Surveillance_to_Visibility_Symposium_Poster.pdf"> here</a>.</p>
-
-![poster](/assets/misc/surveillance_poster.png)
+- **Where/When:** JBHT 535, 1-2P ([U of A](https://www.uark.edu/))
+- **Reading:**
+  - [Risks From Learned Optimization in Advanced Machine Learning Systems](https://arxiv.org/pdf/1906.01820.pdf)
+- **Meeting Link (opt):** email me!
+- **abstract:** 
+We analyze the type of learned optimization that occurs when a learned model (such as a neural network) is itself an optimizer—a situation we refer to as mesa-optimization, a neologism we introduce in this paper. We believe that the possibility of mesa-optimization raises two important questions for the safety and transparency of advanced machine learning systems. First, under what circumstances will learned models be optimizers, including when they should not be? Second, when a learned model is an optimizer, what will its objective be—how will it differ from the loss function it was trained under—and how can it be aligned? In this paper, we provide an in-depth analysis of these two primary questions and provide an overview of topics for future research.
