@@ -1,6 +1,6 @@
-#### June 19, 2024
+#### June 26, 2024
 
-
+**note:** We rescheduled our 19 June meeting for this week (26 June) due to Juneteenth Holiday
 
 - **Where/When:** JBHT 532, Noon-1:00P ([U of A](https://www.uark.edu/))
 - **Reading:**
