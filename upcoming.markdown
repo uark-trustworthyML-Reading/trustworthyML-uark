@@ -1,6 +1,6 @@
 #### August and September
 
-**note:** We are planning to gauge interest after Labor Day. Check back periodically or send me an email if interested at cb051 <at> uark <dot> edu.
+**note:** We are planning to gauge interest after Labor Day. Check back periodically or send me an email if interested at cb051 \<at\> uark \<dot\> edu.
 
 <!--**note:** We rescheduled our 19 June meeting for this week (26 June) due to Juneteenth Holiday-->
 <!---->
