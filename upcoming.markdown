@@ -1,27 +1,43 @@
-#### September
+#### 24 September 2024 (Tuesday)
 
-**note:** Please fill out this [**when2meet**](https://www.when2meet.com/?26358552-Lu9fe) poll or email me at cb051 \<at\> uark \<dot\> edu.
 
-We are guaging interest and deciding a time to meet.
 
-<!--**note:** We rescheduled our 19 June meeting for this week (26 June) due to Juneteenth Holiday-->
-<!---->
-<!--- **Where/When:** JBHT 532, Noon-1:00P ([U of A](https://www.uark.edu/))-->
-<!--- **Reading:**-->
-<!--  - [AI Art and its Impact on Artists](https://dl.acm.org/doi/pdf/10.1145/3600211.3604681)-->
-<!--- **Meeting Link (opt):** email me!-->
-<!--- **Abstract:** The last 3 years have resulted in machine learning (ML)-based-->
-<!--image generators with the ability to output consistently higher-->
-<!--quality images based on natural language prompts as inputs. As-->
-<!--a result, many popular commercial “generative AI Art” products-->
-<!--have entered the market, making generative AI an estimated $48B-->
-<!--industry [125]. However, many professional artists have spoken-->
-<!--up about the harms they have experienced due to the proliferation-->
-<!--of large scale image generators trained on image/text pairs from-->
-<!--the Internet. In this paper, we review some of these harms which-->
-<!--include reputational damage, economic loss, plagiarism and copyright infringement. To guard against these issues while reaping the-->
-<!--potential benefits of image generators, we provide recommendations such as regulation that forces organizations to disclose their-->
-<!--training data, and tools that help artists prevent using their content-->
-<!--as training data without their consent.-->
+- **Where/When:** JBHT 535, 12:30-1:30P ([U of A](https://www.uark.edu/))
+- **Reading:** 
+  - [Machine Unlearning](https://arxiv.org/pdf/1912.03817)
+- **Meeting Link (opt):** email me!
+
+**Abstract:** 
+
+Once users have shared their data online, it is
+generally difficult for them to revoke access and ask for the data
+to be deleted. Machine learning (ML) exacerbates this problem
+because any model trained with said data may have memorized it,
+putting users at risk of a successful privacy attack exposing their
+information. Yet, having models unlearn is notoriously difficult.
+
+We introduce SISA training, a framework that expedites the
+unlearning process by strategically limiting the influence of a
+data point in the training procedure. While our framework is
+applicable to any learning algorithm, it is designed to achieve
+the largest improvements for stateful algorithms like stochastic
+gradient descent for deep neural networks. SISA training reduces
+the computational overhead associated with unlearning, even
+in the worst-case setting where unlearning requests are made
+uniformly across the training set. In some cases, the service
+provider may have a prior on the distribution of unlearning
+requests that will be issued by users. We may take this prior
+into account to partition and order data accordingly, and further
+decrease overhead from unlearning.
+
+Our evaluation spans several datasets from different domains,
+with corresponding motivations for unlearning. Under no distributional assumptions, for simple learning tasks, we observe
+that SISA training improves time to unlearn points from the
+Purchase dataset by 4.63×, and 2.45× for the SVHN dataset, over
+retraining from scratch. SISA training also provides a speed-up of
+1.36× in retraining for complex learning tasks such as ImageNet
+classification; aided by transfer learning, this results in a small
+degradation in accuracy. Our work contributes to practical data
+governance in machine unlearning.
 
 
