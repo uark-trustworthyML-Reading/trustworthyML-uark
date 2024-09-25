@@ -8,21 +8,21 @@
   <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
     <meta name="google-site-verification" content="55He4UuFgw5uAUgKMU8V-gF5ZSq__L8Th7u3SWeIK7E">
 <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Model Explanations with Differential Privacy | Trustworthy ML Reading Group</title>
+<title>Machine Unlearning | Trustworthy ML Reading Group</title>
 <meta name="generator" content="Jekyll v4.3.3">
-<meta property="og:title" content="Model Explanations with Differential Privacy">
+<meta property="og:title" content="Machine Unlearning">
 <meta property="og:locale" content="en_US">
-<meta name="description" content="Check out the paper Model Explanations with Differential Privacy - N. Patel, R. Shokri, and Y. Zick. 2022">
-<meta property="og:description" content="Check out the paper Model Explanations with Differential Privacy - N. Patel, R. Shokri, and Y. Zick. 2022">
-<link rel="canonical" href="https://trustworthyml-uark.github.io/2024/02/13/mtg4.html">
-<meta property="og:url" content="https://trustworthyml-uark.github.io/2024/02/13/mtg4.html">
+<meta name="description" content="Check out the paper Machine Unlearning">
+<meta property="og:description" content="Check out the paper Machine Unlearning">
+<link rel="canonical" href="https://trustworthyml-uark.github.io/2024/09/24/mtg15.html">
+<meta property="og:url" content="https://trustworthyml-uark.github.io/2024/09/24/mtg15.html">
 <meta property="og:site_name" content="Trustworthy ML Reading Group">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2024-02-13T23:00:00-06:00">
+<meta property="article:published_time" content="2024-09-24T00:00:00-05:00">
 <meta name="twitter:card" content="summary">
-<meta property="twitter:title" content="Model Explanations with Differential Privacy">
+<meta property="twitter:title" content="Machine Unlearning">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-02-13T23:00:00-06:00","datePublished":"2024-02-13T23:00:00-06:00","description":"Check out the paper Model Explanations with Differential Privacy - N. Patel, R. Shokri, and Y. Zick. 2022","headline":"Model Explanations with Differential Privacy","mainEntityOfPage":{"@type":"WebPage","@id":"https://trustworthyml-uark.github.io/2024/02/13/mtg4.html"},"url":"https://trustworthyml-uark.github.io/2024/02/13/mtg4.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-09-24T00:00:00-05:00","datePublished":"2024-09-24T00:00:00-05:00","description":"Check out the paper Machine Unlearning","headline":"Machine Unlearning","mainEntityOfPage":{"@type":"WebPage","@id":"https://trustworthyml-uark.github.io/2024/09/24/mtg15.html"},"url":"https://trustworthyml-uark.github.io/2024/09/24/mtg15.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="icon" href="">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -926,11 +926,11 @@ function googleTranslateElementInit() {
 
 
 <header class="post-header">
-  <h1 class="post-title p-name" itemprop="name headline">Model Explanations with Differential Privacy</h1>
+  <h1 class="post-title p-name" itemprop="name headline">Machine Unlearning</h1>
   <h2 class="post-subtitle"></h2>
 
   <p class="post-meta">
-    <time class="dt-published" datetime="2024-02-13T23:00:00-06:00" itemprop="datePublished"><i class="fa fa-calendar"></i> Feb 13, 2024
+    <time class="dt-published" datetime="2024-09-24T00:00:00-05:00" itemprop="datePublished"><i class="fa fa-calendar"></i> Sep 24, 2024
     </time>
 
     
@@ -971,38 +971,37 @@ function googleTranslateElementInit() {
 <!--    -->
 <!--    <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>-->
   </p>
-<div class="post-tags">
-<a class="post-tag" href="/tags.html#interpretability">#interpretability</a><a class="post-tag" href="/tags.html#privacy">#privacy</a>
-</div></header>
+<div class="post-tags"><a class="post-tag" href="/tags.html#privacy">#privacy</a></div></header>
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
     <div class="post-content e-content" itemprop="articleBody">
 
       <h3 id="check-out-the-paper">Check out the paper</h3>
 <ul>
-  <li>
-<a href="https://dl.acm.org/doi/pdf/10.1145/3531146.3533235">Model Explanations with Differential Privacy</a> - <em>N. Patel, R. Shokri, and Y. Zick. 2022</em>
-</li>
+  <li><a href="https://arxiv.org/abs/1912.03817">Machine Unlearning</a></li>
 </ul>
 
-<h3 id="check-out-the-slides">Check out the slides</h3>
+<h3 id="abstract">Abstract</h3>
+<p>Once users have shared their data online, it is generally difficult for them to revoke access and ask for the data to be deleted. Machine learning (ML) exacerbates this problem because any model trained with said data may have memorized it, putting users at risk of a successful privacy attack exposing their information. Yet, having models unlearn is notoriously difficult. We introduce SISA training, a framework that expedites the unlearning process by strategically limiting the influence of a data point in the training procedure. While our framework is applicable to any learning algorithm, it is designed to achieve the largest improvements for stateful algorithms like stochastic gradient descent for deep neural networks. SISA training reduces the computational overhead associated with unlearning, even in the worst-case setting where unlearning requests are made uniformly across the training set. In some cases, the service provider may have a prior on the distribution of unlearning requests that will be issued by users. We may take this prior into account to partition and order data accordingly, and further decrease overhead from unlearning. Our evaluation spans several datasets from different domains, with corresponding motivations for unlearning. Under no distributional assumptions, for simple learning tasks, we observe that SISA training improves time to unlearn points from the Purchase dataset by 4.63x, and 2.45x for the SVHN dataset, over retraining from scratch. SISA training also provides a speed-up of 1.36x in retraining for complex learning tasks such as ImageNet classification; aided by transfer learning, this results in a small degradation in accuracy. Our work contributes to practical data governance in machine unlearning.</p>
 
-<p>PDF<a href="/assets/slides/14Feb_Model_Explantions_with_DP.pdf"> here</a>.</p>
+<!--### Check out the slides-->
+<!---->
+<!--<p>PDF<a href="/assets/slides/24April_inherentPrivacy.pdf"> here</a>.</p>-->
 
 
     </div>
 
 </article>
 <div class="post-nav">
-<a class="previous" href="/2024/02/06/mtg3.html" title="Causal parrots: Large language models may talk causality but are not causal">Causal parrots: Large language models may...</a><a class="next" href="/2024/02/20/mtg5.html" title="Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training">Sleeper Agents: Training Deceptive LLMs that...</a>
+<a class="previous" href="/2024/06/26/mtg14.html" title="AI Art and its Impact on Artists">AI Art and its Impact on...</a><span></span>
 </div>
 <div class="post-related">
       <div>Related Articles</div>
       <ul>
-        <li><a class="post-link" href="/2024/04/03/mtg10.html" title="Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training">Causal Fairness Field Guide: Perspectives from Social and Formal Sciences</a></li>
-<li><a class="post-link" href="/2024/04/17/mtg11.html" title="Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training">Risks From Learned Optimization in Advanced Machine Learning Systems</a></li>
-<li><a class="post-link" href="/2024/02/27/mtg6.html" title="Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training">Runaround - Isaac Asimov</a></li>
-<li><a class="post-link" href="/2024/02/13/mtg4.html" title="Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training">Model Explanations with Differential Privacy</a></li>
+        <li><a class="post-link" href="/2024/03/27/mtg9.html" title="">Underspecification Presents Challenges for Credibility in Modern Machine Learning</a></li>
+<li><a class="post-link" href="/2024/06/26/mtg14.html" title="">AI Art and its Impact on Artists</a></li>
+<li><a class="post-link" href="/2024/09/24/mtg15.html" title="">Machine Unlearning</a></li>
+<li><a class="post-link" href="/2024/03/13/mtg8.html" title="">Arbitrariness and Social Prediction: The Confounding Role of Variance in Fair Classification...</a></li>
 </ul>
     </div>
 <div class="post-comments"></div></section>

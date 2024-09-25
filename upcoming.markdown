@@ -1,43 +1,15 @@
-#### 24 September 2024 (Tuesday)
+#### 2 October 2024 (Tuesday)
 
 
 
 - **Where/When:** JBHT 535, 12:30-1:30P ([U of A](https://www.uark.edu/))
 - **Reading:** 
-  - [Machine Unlearning](https://arxiv.org/pdf/1912.03817)
+  - [Towards A Rigorous Science of Interpretable Machine Learning](https://arxiv.org/pdf/1702.08608)
 - **Meeting Link (opt):** email me!
 
 **Abstract:** 
+As machine learning systems become ubiquitous, there has been a surge of interest in interpretable machine learning: systems that provide explanation for their outputs. These explanations are often used to qualitatively assess other criteria such as safety or non-discrimination. However, despite the interest in interpretability, there is very little consensus on what interpretable machine learning is and how it should be measured. In this position paper, we first define interpretability and describe when interpretability is needed (and when it is not). Next, we suggest a taxonomy for rigorous evaluation and expose open questions towards a more rigorous science of interpretable machine learning.
 
-Once users have shared their data online, it is
-generally difficult for them to revoke access and ask for the data
-to be deleted. Machine learning (ML) exacerbates this problem
-because any model trained with said data may have memorized it,
-putting users at risk of a successful privacy attack exposing their
-information. Yet, having models unlearn is notoriously difficult.
 
-We introduce SISA training, a framework that expedites the
-unlearning process by strategically limiting the influence of a
-data point in the training procedure. While our framework is
-applicable to any learning algorithm, it is designed to achieve
-the largest improvements for stateful algorithms like stochastic
-gradient descent for deep neural networks. SISA training reduces
-the computational overhead associated with unlearning, even
-in the worst-case setting where unlearning requests are made
-uniformly across the training set. In some cases, the service
-provider may have a prior on the distribution of unlearning
-requests that will be issued by users. We may take this prior
-into account to partition and order data accordingly, and further
-decrease overhead from unlearning.
-
-Our evaluation spans several datasets from different domains,
-with corresponding motivations for unlearning. Under no distributional assumptions, for simple learning tasks, we observe
-that SISA training improves time to unlearn points from the
-Purchase dataset by 4.63×, and 2.45× for the SVHN dataset, over
-retraining from scratch. SISA training also provides a speed-up of
-1.36× in retraining for complex learning tasks such as ImageNet
-classification; aided by transfer learning, this results in a small
-degradation in accuracy. Our work contributes to practical data
-governance in machine unlearning.
 
 
