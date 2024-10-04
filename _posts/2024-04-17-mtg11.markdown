@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Risks From Learned Optimization in Advanced Machine Learning Systems"
+date:   2024-04-17 00:00:00 -0500
+tags: adversarial safety
+sidebar: []
+---
+### Check out the paper
+- [Risks From Learned Optimization in Advanced Machine Learning Systems](https://arxiv.org/pdf/1906.01820.pdf)
+
+### Check out the slides
+<!---->
+<!--<p>PDF<a href="/assets/slides/27Mar_Underspecification Presentation.pdf"> here</a>.</p>-->

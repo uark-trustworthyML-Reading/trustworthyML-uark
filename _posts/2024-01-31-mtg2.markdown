@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Differentially Private Fair Learning"
+date:   2024-01-31 00:00:00 -0500
+tags: privacy fairness
+sidebar: []
+---
+
+### Check out the paper
+- [Differentially Private Fair Learning](https://proceedings.mlr.press/v97/jagielski19a/jagielski19a.pdf) - *Matthew Jagielski, Michael Kearns, Jieming Mao, Aaron Oprea, Alina Roth, Saeed Sharifi-Malvajerdi, and Jonathan Ullman*
+
+### Check out the slides
+
+<p>PDF<a href="/assets/slides/31Jan_DP_Fairness_paper.pdf"> here</a>.</p>
+
+

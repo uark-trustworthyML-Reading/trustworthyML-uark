@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Causal parrots: Large language models may talk causality but are not causal"
+date:   2024-02-07 00:00:00 -0500
+tags: LLMs causality NLP
+sidebar: []
+---
+### Check out the paper
+- [Causal parrots: Large language models may talk causality but are not causal](https://openreview.net/forum?id=tv46tCzs83) - *Zečević, M., Willig, M., Dhami, D. S., & Kersting, K. (2023)*
+
+### Check out the slides
+
+<p>PDF<a href="/assets/slides/7Feb_causalparrots.pdf"> here</a>.</p>

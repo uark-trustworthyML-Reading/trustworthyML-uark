@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Welcome / Intro"
+date:   2024-01-24 01:00:00 -0500
+tags: non-technical
+sidebar: []
+---
+This week we covered basic expectations and topics we hope to cover. Nothing big here!

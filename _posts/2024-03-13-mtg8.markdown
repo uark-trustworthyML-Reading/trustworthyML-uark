@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Arbitrariness and Social Prediction: The Confounding Role of Variance in Fair Classification"
+date:   2024-03-13 00:00:00 -0500
+tags: fairness
+sidebar: []
+---
+### Check out the paper
+- [Arbitrariness and Social Prediction: The Confounding Role of Variance in Fair Classification](https://arxiv.org/pdf/2301.11562v7.pdf) - *A. Feder Cooper, K. Lee, M. Zahrah Choksi, S. Barocas, C. De Sa, J. Grimmelmann, J. Kleinberg, S. Sen, B. Zhang*
+
+### Check out the slides
+
+<p>PDF<a href="/assets/slides/13Mar_ArbitrarinessAndSocialPrediction-PaperClub.pdf"> here</a>.</p>
