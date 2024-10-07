@@ -1,15 +1,24 @@
 #### 8 October 2024 (Tuesday)
 
-nothing planned yet. Check back later (Friday)!
 
-<!--- **Where/When:** JBHT 535, 12:30-1:30P ([U of A](https://www.uark.edu/))-->
-<!--- **Reading:** -->
-<!--  - [Towards A Rigorous Science of Interpretable Machine Learning](https://arxiv.org/pdf/1702.08608)-->
-<!--- **Meeting Link (opt):** email me!-->
-<!---->
-<!--**Abstract:** -->
-<!--As machine learning systems become ubiquitous, there has been a surge of interest in interpretable machine learning: systems that provide explanation for their outputs. These explanations are often used to qualitatively assess other criteria such as safety or non-discrimination. However, despite the interest in interpretability, there is very little consensus on what interpretable machine learning is and how it should be measured. In this position paper, we first define interpretability and describe when interpretability is needed (and when it is not). Next, we suggest a taxonomy for rigorous evaluation and expose open questions towards a more rigorous science of interpretable machine learning.-->
+- **Where/When:** JBHT 535, 12:30-1:30P ([U of A](https://www.uark.edu/))
+- **Reading:** 
+  - [AI Art is Theft: Labour, Extraction, and Exploitation
+Or, On the Dangers of Stochastic Pollocks](https://facctconference.org/static/papers24/facct24-13.pdf)
+- **Meeting Link (opt):** email me!
 
+**Abstract:** 
+Since the launch of applications such as dall•e, Midjourney, and
+Stable Diffusion, generative artificial intelligence has been controversial as a tool for creating artwork. Some writers have presented
+worries about these technologies as harbingers of fully automated
+futures to come, but more pressing is the impact of generative AI
+on creative labour in the present. Already, business leaders have
+begun replacing human artistic labour with AI-generated images. In
+response, the artistic community has launched a protest movement,
+which argues that AI image generation is a kind of theft. This paper
+analyzes, substantiates, and critiques these arguments, concluding
+that AI image generators involve an unethical kind of labour theft.
+If correct, many other AI applications also rely upon theft.
 
 
 
