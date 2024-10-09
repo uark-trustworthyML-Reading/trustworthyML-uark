@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://trustworthyml-uark.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://trustworthyml-uark.github.io/" rel="alternate" type="text/html" /><updated>2024-10-07T10:45:57-05:00</updated><id>https://trustworthyml-uark.github.io/feed.xml</id><title type="html">Trustworthy ML Reading Group</title><subtitle>Here lies the Trustworthy ML reading group at UARK. Check us out!</subtitle><entry><title type="html">Towards A Rigorous Science of Interpretable Machine Learning</title><link href="https://trustworthyml-uark.github.io/2024/10/01/mtg16.html" rel="alternate" type="text/html" title="Towards A Rigorous Science of Interpretable Machine Learning" /><published>2024-10-01T00:00:00-05:00</published><updated>2024-10-01T00:00:00-05:00</updated><id>https://trustworthyml-uark.github.io/2024/10/01/mtg16</id><content type="html" xml:base="https://trustworthyml-uark.github.io/2024/10/01/mtg16.html"><![CDATA[<h3 id="check-out-the-paper">Check out the paper</h3>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://trustworthyml-uark.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://trustworthyml-uark.github.io/" rel="alternate" type="text/html" /><updated>2024-10-09T12:23:25-05:00</updated><id>https://trustworthyml-uark.github.io/feed.xml</id><title type="html">Trustworthy ML Reading Group</title><subtitle>Here lies the Trustworthy ML reading group at UARK. Check us out!</subtitle><entry><title type="html">AI Art is Theft: Labour, Extraction, and Exploitation Or, On the Dangers of Stochastic Pollocks</title><link href="https://trustworthyml-uark.github.io/2024/10/08/mtg17.html" rel="alternate" type="text/html" title="AI Art is Theft: Labour, Extraction, and Exploitation Or, On the Dangers of Stochastic Pollocks" /><published>2024-10-08T00:00:00-05:00</published><updated>2024-10-08T00:00:00-05:00</updated><id>https://trustworthyml-uark.github.io/2024/10/08/mtg17</id><content type="html" xml:base="https://trustworthyml-uark.github.io/2024/10/08/mtg17.html"><![CDATA[<h3 id="check-out-the-paper">Check out the paper</h3>
+<ul>
+  <li><a href="https://facctconference.org/static/papers24/facct24-13.pdf">AI Art is Theft: Labour, Extraction, and Exploitation
+Or, On the Dangers of Stochastic Pollocks</a> <em>Trystan S. Goetze</em></li>
+</ul>
+
+<h3 id="abstract">Abstract</h3>
+<p>Since the launch of applications such as DALL•E, Midjourney, and
+Stable Diffusion, generative artificial intelligence has been controversial as a tool for creating artwork. Some writers have presented
+worries about these technologies as harbingers of fully automated
+futures to come, but more pressing is the impact of generative AI
+on creative labour in the present. Already, business leaders have
+begun replacing human artistic labour with AI-generated images. In
+response, the artistic community has launched a protest movement,
+which argues that AI image generation is a kind of theft. This paper
+analyzes, substantiates, and critiques these arguments, concluding
+that AI image generators involve an unethical kind of labour theft.
+If correct, many other AI applications also rely upon theft.</p>
+
+<h3 id="check-out-the-slides">Check out the slides</h3>
+<!---->
+<p>PDF<a href="/assets/slides/8Oct_AIArtIsTheft"> here</a>.</p>]]></content><author><name></name></author><category term="ethics" /><summary type="html"><![CDATA[Check out the paper AI Art is Theft: Labour, Extraction, and Exploitation Or, On the Dangers of Stochastic Pollocks Trystan S. Goetze]]></summary></entry><entry><title type="html">Towards A Rigorous Science of Interpretable Machine Learning</title><link href="https://trustworthyml-uark.github.io/2024/10/01/mtg16.html" rel="alternate" type="text/html" title="Towards A Rigorous Science of Interpretable Machine Learning" /><published>2024-10-01T00:00:00-05:00</published><updated>2024-10-01T00:00:00-05:00</updated><id>https://trustworthyml-uark.github.io/2024/10/01/mtg16</id><content type="html" xml:base="https://trustworthyml-uark.github.io/2024/10/01/mtg16.html"><![CDATA[<h3 id="check-out-the-paper">Check out the paper</h3>
 <ul>
   <li><a href="https://arxiv.org/pdf/1702.08608">Towards A Rigorous Science of Interpretable Machine Learning</a> <em>Finale Doshi-Velez and Been Kim</em></li>
 </ul>
@@ -97,10 +118,4 @@ Modern Machine Learning</a></li>
 
 <h3 id="check-out-the-slides">Check out the slides</h3>
 
-<p>PDF<a href="/assets/slides/13Mar_ArbitrarinessAndSocialPrediction-PaperClub.pdf"> here</a>.</p>]]></content><author><name></name></author><category term="fairness" /><summary type="html"><![CDATA[Check out the paper Arbitrariness and Social Prediction: The Confounding Role of Variance in Fair Classification - A. Feder Cooper, K. Lee, M. Zahrah Choksi, S. Barocas, C. De Sa, J. Grimmelmann, J. Kleinberg, S. Sen, B. Zhang]]></summary></entry><entry><title type="html">Runaround + Code 8</title><link href="https://trustworthyml-uark.github.io/2024/03/05/mtg7.html" rel="alternate" type="text/html" title="Runaround + Code 8" /><published>2024-03-05T23:00:00-06:00</published><updated>2024-03-05T23:00:00-06:00</updated><id>https://trustworthyml-uark.github.io/2024/03/05/mtg7</id><content type="html" xml:base="https://trustworthyml-uark.github.io/2024/03/05/mtg7.html"><![CDATA[<h3 id="check-out-the-story-and-short">Check out the Story and Short</h3>
-<ul>
-  <li><a href="https://tcw.org/lefty/Short%20Stories/Runaround.pdf">Runaround - Isaac Asimov</a></li>
-  <li><a href="https://www.youtube.com/watch?v=DqO90q0WZ0M">Code 8 (Youtube)</a> <em>Short Film</em></li>
-</ul>
-
-<p><em>note:</em> Code 8 was turned into a full length feature (now on Netflix).</p>]]></content><author><name></name></author><category term="philosophy" /><category term="non-technical" /><summary type="html"><![CDATA[Check out the Story and Short Runaround - Isaac Asimov Code 8 (Youtube) Short Film]]></summary></entry></feed>
+<p>PDF<a href="/assets/slides/13Mar_ArbitrarinessAndSocialPrediction-PaperClub.pdf"> here</a>.</p>]]></content><author><name></name></author><category term="fairness" /><summary type="html"><![CDATA[Check out the paper Arbitrariness and Social Prediction: The Confounding Role of Variance in Fair Classification - A. Feder Cooper, K. Lee, M. Zahrah Choksi, S. Barocas, C. De Sa, J. Grimmelmann, J. Kleinberg, S. Sen, B. Zhang]]></summary></entry></feed>
